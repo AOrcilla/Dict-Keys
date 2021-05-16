@@ -5,8 +5,8 @@ num1 = input('how many of item1 do you need: ')
 num2 = input('how many of item2 do you need: ')
 
 
-var = dict()
-var[item1] = num1
-var[item2] = num2
+hello = dict()
+hello[item1] = num1
+hello[item2] = num2
 
-print(var)
+print(hello)
