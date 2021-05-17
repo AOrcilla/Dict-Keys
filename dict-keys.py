@@ -10,7 +10,7 @@ for lin in handle: #First loop to go through each line and split the content
     words = lin.split()
     for wrd in words: #Loop that reads through each word
         if wrd == 'From' :
-            sender = words[1]   #if first word begins with 'From' then store the User's email
+            sender = words[1]   #if first word begins with 'From' then store the User's email since the email always comes right after 'From'
             if sender in lins:    #checks if the User is in the dictionary
                 lins[sender] += 1 #if User is in the dictionary, then increase counter
             else:
